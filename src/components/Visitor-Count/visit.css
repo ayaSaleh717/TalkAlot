@@ -1,0 +1,12 @@
+.visit{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -100px 20px;
+    border-radius: var( --border-radius);
+    box-shadow: var(--text-shadow);
+
+}

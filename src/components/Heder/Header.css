@@ -1,0 +1,110 @@
+ .coutainer_head{
+    /* position: fixed; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 100px;   
+    background-color:var( --title-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    border-radius: var(--border-radius);
+    /* z-index: 1; */
+    
+
+}
+
+
+
+.first{
+    background-color:var( --title-color);
+}
+
+.menue{
+   
+    color: var(--body-color);
+}
+
+.header{
+    /* background-color: var(--first-color); */
+    margin-top: -50px;    
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    color: var(--body-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: ;
+    /* background-color: var(--first-color); */
+    
+}
+
+
+
+.logo, .menue{
+    position: relative;
+    margin-top: 20px; 
+    color: red;
+
+}
+
+span{
+    color: var(--container-color);
+}
+.logo-h1{
+    border: solid var(--container-color);
+   
+}
+.ma{
+    margin: 4px 4px;
+    border: solid var(--container-color) 1px;
+    cursor: pointer;
+    /* color: var(--text-color); */
+    /* color: red; */
+    border-radius: 30px;
+    /* font-size: 16px; */
+    padding: 4px 10px;
+
+}
+.menu-a{
+    margin: 4px 4px;
+   
+    cursor: pointer;
+    color: var(--text-color);
+    border-radius: 30px;
+    /* font-size: 16px; */
+    padding: 4px 10px;
+    
+}
+.menu-a:active,
+
+
+
+.ma:hover{
+    /* box-shadow: var(--shadow);
+    text-shadow: var(--text-shadow);
+     background-color: var(--title-color); */
+     color: var( --title-color);
+     
+      /* background-color: red; */
+      background-color: #EEEEEE;
+  box-shadow: var(--hover-shadow);    
+
+}
+
+
+
+.navbar-toggler{
+    background-color: transparent;
+    border: none;
+    box-shadow: var(--text-shadow);
+    border-radius: 50%;
+   /* background-color: var(--text-color); */
+    
+}
+.navbar-toggler span{
+    color: red;
+}
+
+.navbar-toggler:hover{
+    box-shadow: var(--hover-shadow);
+    
+}

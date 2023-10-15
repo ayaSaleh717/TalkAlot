@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+
+body {
+  /* background-color: #f0f5ff; */
+  font-family: 'Jost',sans-serif;
+  /* color: #fff; */
+}
+
+.connact{
+    /* background-color: red; */
+    z-index: 1;
+    padding-top: 200px;
+    display: grid;
+    flex-direction: row;
+    margin-top: 140px;
+    grid-template-columns: repeat(3,3fr);
+    flex-wrap: wrap;
+}
+
+.btn{
+  margin: 4px 4px;
+  border: solid var( --container-color) 1px;
+  cursor: pointer;
+  color: var(--container-color);
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 4px 4px;
+}
+
+.btn:hover{
+  /* box-shadow: var(--shadow);
+  text-shadow: var(--text-shadow);
+   background-color: var(--title-color); */
+   color: var( --title-color);
+   
+    /* background-color: red; */
+    background-color: #EEEEEE;
+box-shadow: var(--hover-shadow);    
+
+}
+
+
+
+
+.wrapper {
+  width: 400px;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 30px;
+  background:var( --title-color);
+  box-shadow: 0px 10px 40px 0px rgba(47,47,47,.1);
+  display: none;
+ 
+}
+
+.submited{
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  color:  lightgrey;
+  background: none;
+  width: 274px;
+  
+}
+
+.textarea,
+input[type="text"]{
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  background: none;
+  width: 274px;
+  color: black;
+ 
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.controls {
+  width: 294px;
+  margin: 15px auto;
+}
+
+#remove_fields {
+  float: right;
+}
+.controls a i.fa-minus {
+  margin-right: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #232c3d;
+}
+.c-btn{
+  width: 100px;
+  height: 50px;
+ margin-right: 30px;
+ margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .connact{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

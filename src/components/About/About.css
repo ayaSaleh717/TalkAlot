@@ -1,0 +1,12 @@
+.about_title::before{
+    content: '';
+    background-color: var(--title-color);
+    width: 2px;
+    height: 3px;
+    /* margin: 10px; */
+    border-radius: 20px ;
+}
+
+/* .about{
+   margin: ;
+} */
