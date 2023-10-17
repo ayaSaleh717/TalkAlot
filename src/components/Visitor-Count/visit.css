@@ -7,9 +7,8 @@
     align-items: center;
     /* border-radius: var( --border-radius); */
     box-shadow: var(--text-shadow);
-    position: relative;
+    position: absolute;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
     z-index: 1;
-
 
 }
