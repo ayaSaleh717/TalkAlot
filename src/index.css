@@ -57,8 +57,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing:  border-box;
-  /* overflow-y: hidden; */
+  overflow-x: hidden;
   font-family: var(--font-family);
+  
 
 }
 
