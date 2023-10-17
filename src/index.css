@@ -57,7 +57,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing:  border-box;
-  overflow-x: hidden;
+ 
+
   font-family: var(--font-family);
   
 
@@ -65,7 +66,7 @@
 
 
 html{
-  scroll-behavior: border-box;
+  scroll-behavior: smooth;
 }
 body,
 button,
@@ -74,9 +75,11 @@ textarea{
   /* font-family: var(--font-family); */
   /* font-size: var(--normal-font-size); */
 
+
 }
 
 body{
+  overflow-x: hidden;
   background-color: var(--container-color);
   /* background-color: var(--container-color); */
   /* line-height: 1.7; */
