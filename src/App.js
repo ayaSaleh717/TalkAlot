@@ -15,13 +15,13 @@ function App() {
     <div className="App">
        
             <Header />
-            <Home />
-            <Video />     
+            <Home /> 
+             <Video />     
 
             {/* <Btn /> */}
             <Connact />
             <SocialLinks />
-            <Visit />
+            {/* <Visit /> */}
             
       
        
