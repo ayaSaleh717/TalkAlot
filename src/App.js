@@ -21,7 +21,7 @@ function App() {
             {/* <Btn /> */}
             <Connact />
             <SocialLinks />
-            {/* <Visit /> */}
+            <Visit />
             
       
        

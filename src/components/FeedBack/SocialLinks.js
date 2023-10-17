@@ -20,7 +20,7 @@ function SocialLinks() {
          <a href="https://www.twiter.com" className='a-social'>
          <i class="fa-brands fa-twitter icon"><spam className='span'>Instagram</spam></i>
       </a>
-         <Visit />
+        
 
     </footer>
    
