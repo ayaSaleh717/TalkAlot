@@ -17,7 +17,7 @@ function Visit() {
     localStorage.setItem("visitCounter", visits);
   }, [visits]);
 
-  return <p className="visit">{visits}</p>;
+  return <p className="visit">Visitors {visits}</p>;
 }
 
 

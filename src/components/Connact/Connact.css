@@ -12,9 +12,10 @@ body {
     padding-top: 200px;
     display: grid;
     flex-direction: row;
-    margin-top: 140px;
+    /* margin-top: 140px; */
     grid-template-columns: repeat(3,3fr);
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 
 .control
@@ -46,12 +47,13 @@ box-shadow: var(--hover-shadow);
 
 .wrapper {
   width: 400px;
-  margin: 40px auto;
+  margin:20px;
   padding: 10px;
   border-radius: 30px;
   background:var( --title-color);
-  box-shadow: 0px 10px 40px 0px rgba(47,47,47,.1);
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
+
  
 }
 
@@ -75,7 +77,7 @@ input[type="text"]{
   border: 1px solid lightgrey;
   background: none;
   width: 274px;
-  color: black;
+  color: #fff;
  
 }
 
@@ -111,6 +113,12 @@ h1 {
  margin-right: 30px;
  margin-left: 10px;
 }
+
+.survey_options{
+  color: #fff;
+}
+
+
 
 
 

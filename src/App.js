@@ -13,18 +13,17 @@ function App() {
   
   return (
     <div className="App">
-        <main className="first">
+       
             <Header />
             <Home />
             <Video />     
-            </main>
-            <main className='second'> 
+
             {/* <Btn /> */}
             <Connact />
             <SocialLinks />
-            <Visit />
+            {/* <Visit /> */}
             
-       </main>
+      
        
      
     </div>

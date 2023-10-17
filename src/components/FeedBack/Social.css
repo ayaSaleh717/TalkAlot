@@ -4,18 +4,86 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin-top: 100px;
+    
    
   }
   .social-links{
+    width: 100%;
+    height: 100%;
+  display: grid;
+  /* align-items: center;
+  justify-content: space-between; */
+  justify-content: space-around;
+  grid-template-columns: repeat(5,5fr);
+ 
+  /* padding: 30px; */
+}
+.a-social i{
   display: flex;
-  margin-top: 100px;
-  padding: 30px;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 30% 30%;
+  padding: 5px 5px;
+  color: var(--container-color);
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
+
+ 
+
+}
+
+
+.span{
+  font-size: 20px;
+  margin: 0 10%;
+  display: none;
 }
 
 
 
+
+.a-social:hover{
+
+  .span{
+    display: block;
+    animation: a-hover 0.3s ease 0.9 forwards; 
+
+   
+  }
+  .icon{
+    animation: a-hover 0.3s ease 0.9 forwards; 
+   
+    color: var(--first-color);
+     border-radius: 6px 6px;
+      background-color: #EEEEEE;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+  }
+  
+}
+
+.a-social{
+
+  width: auto;
+  /* background-color: aqua; */
+  border-radius: 30% 30%;
+  
+}
+.icon{
+  background-color: var(--first-color);
+  width: auto;
+  height: auto;
+
+
+}
+
+
 .social-links a{  
-  color: var(--container-color);
+  margin: 20% 20%;
+  /* color: var(--container-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,22 +93,43 @@
   margin: 20px 20px;
   background-color: var(--title-color);
   border-radius: 10% 30% 50% 70%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
 }
  .social-links a:hover{
-  animation: a-hover 0.3s ease 0.9 forwards;
+  /* animation: a-hover 0.3s ease 0.9 forwards;
   background-color: var( --first-color);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
 @keyframes a-hover {
  0%{  
-  border-radius: 10% 30% 50% 70%;
+ margin-bottom: 0;
    }
    100%{
-    border-radius: 50% 50%
-   
+margin-bottom: 20px   
    }
   }; 
 
 
+  
+
+  @media screen and (max-width: 1000px) {
+
+    .a-social i{
+      color: blue;
+    }
+    
+    
+    }
+
+
+   
+  
+    /* .a-social:hover{
+      background-color: aquamarine;
+    .span{
+      display: none;
+    } */
+  
+   
+    
   

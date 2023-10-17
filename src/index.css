@@ -57,7 +57,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing:  border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: var(--font-family);
   
 
@@ -99,13 +99,13 @@ ul{
 a{
   text-decoration: none;
 }
-button:h
-a:hover{
+/* button:hover, */
+/* a:hover{
   background-color: #EEEEEE;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 
-}
+} */
 button{
   cursor: pointer;
   border: none;
@@ -169,6 +169,8 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
+
  
 }
 .btn:hover{
@@ -185,10 +187,11 @@ img{
    };
 
  
-/* 
+
    .App{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   } */
+    justify-content: space-between;
+    /* align-items: center;
+    justify-content: center; */
+   }

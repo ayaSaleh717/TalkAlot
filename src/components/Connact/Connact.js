@@ -44,7 +44,7 @@ function Connact() {
 
 
 
-   <div className='connact'>
+   <form className='connact'>
   <div class="wrapper" id='wrapper'>
   <h1>Join Us</h1>
     <div id="survey_options">
@@ -53,7 +53,7 @@ function Connact() {
       <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Number" />
     </div>
     <div class="controls">
-    <button className='btn c-btn' onClick={handleClickwr1} id='next_1'>Next</button>
+    <spam className='btn c-btn' onClick={handleClickwr1} id='next_1'>Next</spam>
       <button type="reset" className='btn c-btn'  id='rest_1'>Reset</button>
     </div>
   </div>
@@ -61,10 +61,10 @@ function Connact() {
   <div class="wrapper wr2" id='wr2'>
   <h1><i class="fa-solid fa-arrow-right"></i></h1>
     <div id="survey_options">
-    <textarea name="textarea" className='textarea' rows="5" cols="40" placeholder='Write your message' ></textarea>    </div>
+    <textarea name="survey_options[]" className='textarea survey_options' rows="5" cols="40" placeholder='Write your message' ></textarea>    </div>
     <div class="controls">
     
-      <button className='btn c-btn'  onClick={handleClickwr2} id='next_2'>Next</button>
+      <spam className='btn c-btn'  onClick={handleClickwr2} id='next_2'>Next</spam>
       <button type="reset" className='btn c-btn'  id='rest_2'>Reset</button>
     </div>
   </div>
@@ -81,7 +81,7 @@ function Connact() {
      
     </div>
   </div>
-</div>
+</form>
   
 </section>
 

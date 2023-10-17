@@ -6,10 +6,12 @@
 
 .button{
      position: absolute; 
-     margin: 0  45%;
+     margin: 0  40%;
      width: 10%;
-     padding: 20px 20px;
+     /* padding: 20px 20px; */
      margin-top: 200px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
+
        
     
 }
@@ -30,4 +32,3 @@
     /* display: flex; */
 
 }
-
