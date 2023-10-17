@@ -6,7 +6,7 @@ function SocialLinks() {
   return (
     <section className='container_social'>
 
-    <footer className="social-links">
+    <div className="social-links">
       <a href="https://www.facebook.com" className='a-social'>
          <i class="fa-brands fa-facebook  icon">
           <spam className='span'>Facebook</spam>
@@ -23,7 +23,7 @@ function SocialLinks() {
         
      
    
-    </footer>
+    </div>
     
     </section>
   );
