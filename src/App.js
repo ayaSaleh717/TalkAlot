@@ -22,6 +22,13 @@ function App() {
             <Connact />
             <SocialLinks />
             {/* <Visit /> */}
+
+
+
+
+            <footer >
+              <Visit />
+            </footer>
             
       
        

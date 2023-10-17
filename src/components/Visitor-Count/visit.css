@@ -9,9 +9,10 @@
     box-shadow: var(--text-shadow);
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
-    columns: 2;
-    margin: 0 50%;
-    margin-top: 10px;
+    margin-top: 15px;
+    
+    
+   
     border-radius: 20% 20% ;
    
 

@@ -22,7 +22,7 @@ function SocialLinks() {
       </a>
         
      
-     <Visit />
+   
     </footer>
     
     </section>
