@@ -29,10 +29,6 @@
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     color: var(--body-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    background-color: ;
     /* background-color: var(--first-color); */
     
 }

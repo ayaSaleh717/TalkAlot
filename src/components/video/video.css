@@ -7,11 +7,11 @@
 
 }
 .video{
-    /* margin-top: 100px; */
+    margin-top: 100px;
    position: absolute;
     /* border-radius: var(--border-radius); */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px , rgba(0, 0, 0, 0.35) 0px 20px 15px;
-    
+     width: 700px;
     animation: movei 5s  ease-out forwards ; 
     height:auto;
     border: solid var(--container-color);
@@ -29,16 +29,16 @@
        }
     
   }
-.first{
+/* .first{
     position: relative;
     border-radius: var(--border-radius);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     z-index: 1;
 
-}
+} */
 
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1000px) {
     .video{
         width: 90%;
         animation: movei_2 5s  ease-out forwards ; 
