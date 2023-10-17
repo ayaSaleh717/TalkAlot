@@ -108,3 +108,12 @@ span{
     box-shadow: var(--hover-shadow);
     
 }
+
+
+
+@media screen and (max-width: 1000px) {
+   .coutainer_head{
+    margin-top: 10px;
+   }
+   
+  }

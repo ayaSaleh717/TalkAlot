@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './Home.css';
+import './home.css';
 
 const textArray = ['  АНГЛИЙСКИЙ ЭТОсреда- стиль жизни ',
     '  и мы за это отвечаем'];
@@ -26,7 +26,7 @@ class Chang extends Component {
 
     return (
       <section className='Change'>
-        <h1>{textThatChanges}</h1>
+        <h1 className='change-title'>{textThatChanges}</h1>
         
       </section>
     )

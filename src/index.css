@@ -5,10 +5,10 @@
 :root{
   /*=============Colors ==========*/
   --first-color:  #2C3333;
-  --title-color:#2C3333;
-  --text-color:#0E8388;
+  --title-color:#2c3333;
+  --text-color:#F4EEE0;
   --body-color: #CBE4DE;
-  --container-color: #CBE4DE;
+  --container-color: #F4EEE0;
   --list-bg-color:#CBE4DE;
 
   --title-color-light: linear-gradient(180deg,#2b5de3,#539ef5);
@@ -23,8 +23,8 @@
    --h3-font-size:1.25rem;
    --normal-font-size:2rem;
    
-   --smal-font-size: 0.875rem;
-   --smaller-font-size: 0.813rem;
+   --smal-font-size:30px;
+   --smaller-font-size:15px;
   /*=============Font weight ==========*/
   --font-medium: 500;
   --font-semibold: 600;
@@ -58,6 +58,7 @@
   padding: 0px;
   box-sizing:  border-box;
   /* overflow-y: hidden; */
+  font-family: var(--font-family);
 
 }
 
@@ -69,7 +70,7 @@ body,
 button,
 input,
 textarea{
-  font-family: var(--font-family);
+  /* font-family: var(--font-family); */
   /* font-size: var(--normal-font-size); */
 
 }
@@ -81,12 +82,13 @@ body{
   color: var(--container-color);
   overflow-x: hidden;
   /* font-size: var(--smaller-font-size ); */
+
 }
-h1, h2,h3{
+/* h1, h2,h3{
    color: var(--text-color);
   font-weight: var(--font-semibold);
   line-height: 1.2;
-}
+} */
 ul{
   list-style: none;
 }

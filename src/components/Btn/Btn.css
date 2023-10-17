@@ -5,13 +5,12 @@
 }
 
 .button{
-    position: absolute;
-    /* background-color: red; */
-    margin: 0  45%;
-    width: 10%;
-   padding: 20px 20px;
-    
-   
+     position: absolute; 
+     margin: 0  45%;
+     width: 10%;
+     padding: 20px 20px;
+     margin-top: 200px;
+       
     
 }
 

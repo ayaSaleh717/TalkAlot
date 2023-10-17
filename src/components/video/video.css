@@ -11,14 +11,16 @@
     /* border-radius: var(--border-radius); */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     animation: movei 5s  ease-out forwards ; 
+    height:auto;
+    border: solid var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: 10%;
 
 }
 @keyframes movei {
-    /* You could think of as "step 1" */
     0% {
     margin-top:30px ;
     }
-    /* You could think of as "step 2" */
 
     100% {
         margin-top: 250px;
@@ -32,3 +34,26 @@
     z-index: 1;
 
 }
+
+
+@media screen and (max-width: 1000px) {
+    .video{
+        width: 90%;
+        animation: movei_2 5s  ease-out forwards ; 
+
+       
+    }
+   
+    
+   }
+
+
+   @keyframes movei_2 {
+    0% {
+    margin-top:30px ;
+    }
+    100% {
+        margin-top: 100px;
+       }
+    
+  }

@@ -17,8 +17,10 @@ body {
     flex-wrap: wrap;
 }
 
+.control
+
 .btn{
-  margin: 4px 4px;
+  margin: auto;
   border: solid var( --container-color) 1px;
   cursor: pointer;
   color: var(--container-color);
@@ -117,4 +119,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
   }
+  .button{
+   margin:  30px 20%;
+  }
+
 }

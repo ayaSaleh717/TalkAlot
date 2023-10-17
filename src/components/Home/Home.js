@@ -8,7 +8,7 @@ import Ch_Text from '../ChangeText/Ch_Text'
 
 function Home() {
   return (
-    <section className='section_con home'>
+    <section className='section_con home '>
             <div className='changing-text'>
             <div className='change-text'>
                 <Chang /> 

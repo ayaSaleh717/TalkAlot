@@ -34,16 +34,17 @@ function Connact() {
   }
 
   return (
-    <section section className='connact'>
+    <section section className='con'>
     {/* <SocialLinks /> */}
-    <Btn />
-    {/* <div className='button'>
-    <button className='btn' onClick={handleClick}>Join Us</button>
-      
-    </div> */}
+    
+    
+    
+      <Btn />
+    
 
 
-   
+
+   <div className='connact'>
   <div class="wrapper" id='wrapper'>
   <h1>Join Us</h1>
     <div id="survey_options">
@@ -80,7 +81,7 @@ function Connact() {
      
     </div>
   </div>
-
+</div>
   
 </section>
 
