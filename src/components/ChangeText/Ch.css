@@ -49,6 +49,7 @@
   }
   
   .logos-slide {
+    overflow-y: hidden;
     display: inline-block;
     animation: 35s slide infinite linear;
   }
@@ -61,6 +62,11 @@
   .change_text_{
    position: absolute;
   }
+
+  .Why h1{
+    overflow: hidden;
+  }
+
 
   @media screen and (max-width: 1080px) {
     span{
