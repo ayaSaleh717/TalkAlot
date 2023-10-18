@@ -7,7 +7,7 @@ function Ch_Text() {
   
   
       return (
-        <div className='change_text_ '>
+        <div className='change_text_ section' data-aos="fade-right">
     <div class="logos">
       <div class="logos-slide">
         <span>«Английский от первоисточника»</span>

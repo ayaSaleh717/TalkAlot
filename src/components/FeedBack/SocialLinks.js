@@ -1,12 +1,11 @@
 import React from 'react';
 import './Social.css'
-import Visit from './../Visitor-Count/Visit';
 
 function SocialLinks() {
   return (
-    <section className='container_social'>
+    <section className='container_social section' >
 
-    <div className="social-links">
+    <div className="social-links" data-aos="fade-right">
       <a href="https://www.facebook.com" className='a-social'>
          <i class="fa-brands fa-facebook  icon">
           <spam className='span'>Facebook</spam>

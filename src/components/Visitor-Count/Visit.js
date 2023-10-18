@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./visit.css";
 
 
-
 function Visit() {
   const [visits, setVisits] = useState(0);
 
@@ -17,7 +16,11 @@ function Visit() {
     localStorage.setItem("visitCounter", visits);
   }, [visits]);
 
-  return <footer className="visit">Visitors {visits}</footer>;
+
+
+
+  return <footer className="visit section">Visitors {visits}</footer>
+  
 }
 
 

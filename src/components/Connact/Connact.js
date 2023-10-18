@@ -34,7 +34,7 @@ function Connact() {
   }
 
   return (
-    <section section className='con'>
+    <section section className='con section' data-aos="fade-right">
     {/* <SocialLinks /> */}
     
     

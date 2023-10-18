@@ -10,6 +10,19 @@ import Visit from './components/Visitor-Count/Visit';
 import Video from './components/video/Video';
 
 function App() {
+
+//  var myID = document.getElementById("myID");
+
+// var myScrollFunc = function () {
+//     var y = window.scrollY;
+//     if (y >= 800) {
+//         myID.className = "bottomMenu show"
+//     } else {
+//         myID.className = "bottomMenu hide"
+//     }
+// };
+
+// window.addEventListener("scroll", myScrollFunc);
   
   return (
     <div className="App">
@@ -31,7 +44,6 @@ function App() {
             </footer>
             
       
-       
      
     </div>
   );

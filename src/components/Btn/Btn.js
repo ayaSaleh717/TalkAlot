@@ -13,8 +13,8 @@ const handleClick = () => {
 
 }
   return (
-    <div className='button' id='btn'>
-    <button className='btn s-btn' onClick={handleClick}>Join Us</button>
+    <div className='button ' id='btn' >
+    <button className='btn s-btn' onClick={handleClick} data-aos="fade-right">Join Us</button>
       
     </div>
   )

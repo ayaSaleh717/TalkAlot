@@ -1,24 +1,25 @@
 .video-container{
-    margin-top: 10px;
+    margin-top: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
     
+    
 
 }
 .video{
     overflow-y: hidden;
-    margin-top: 100px;
    position: absolute;
     /* border-radius: var(--border-radius); */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px , rgba(0, 0, 0, 0.35) 0px 20px 15px;
-     width: 700px;
+    width: 700px;
     animation: movei 5s  ease-out forwards ; 
     height:auto;
     border: solid var(--container-color);
     box-shadow: var(--shadow);
     border-radius: 10%;
+    
 
 }
 @keyframes movei {
@@ -46,6 +47,10 @@
         animation: movei_2 5s  ease-out forwards ; 
 
        
+    }
+    .video-container{
+        margin-top: -10px;
+
     }
    
     

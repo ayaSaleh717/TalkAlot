@@ -6,10 +6,12 @@
 
 .button{
      position: absolute; 
-     margin: 0  40%;
-     width: 10%;
+     /* margin: 0  40%; */
+     width: 10%; 
      /* padding: 20px 20px; */
-     margin-top: 200px;
+      /* margin-top: 200px; */
+     background-color:transparent;
+
      
        
     
@@ -18,6 +20,8 @@
 .s-btn{
     width: 200px;
     height: 50px;
+    margin: 0 -60%;
+
 }
 
 /* .video-container{
