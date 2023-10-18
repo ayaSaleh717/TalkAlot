@@ -10,7 +10,7 @@ body {
     /* background-color: red; */
     overflow-y: hidden;
     z-index: 1;
-    /* padding-top: 200px; */
+    padding-top: 200px;
     display: grid;
     flex-direction: row;
     /* margin-top: 140px; */
@@ -127,6 +127,7 @@ h1 {
   .connact{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
   }
   .button{
    margin:  30px 20%;

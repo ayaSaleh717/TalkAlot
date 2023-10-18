@@ -3,9 +3,9 @@ import './Social.css'
 
 function SocialLinks() {
   return (
-    <section className='container_social section' >
+    <section className='container_social section'  >
 
-    <div className="social-links" data-aos="fade-right">
+    <div className="social-links" data-aos="fade-right"  id='social'>
       <a href="https://www.facebook.com" className='a-social'>
          <i class="fa-brands fa-facebook  icon">
           <spam className='span'>Facebook</spam>
