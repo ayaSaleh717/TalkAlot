@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import NavLink from 'react-router-dom'
 import './Header.css'
+import DarkMode from '../DarkMode/Dark'
 
 function Header() {
 
@@ -41,7 +42,7 @@ function Header() {
                 <a class="menu-a" href="#social">Social </a>
             </li>
             <li class="nav-item ma">
-                <a class="menu-a" href="#social" >Dark mode </a>
+                <DarkMode />
             </li>
             {/* <li class="nav-item dropdown ma">
                 <a class=" dropdown-toggle menu-a" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
