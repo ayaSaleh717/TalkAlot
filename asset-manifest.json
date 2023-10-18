@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TalkAlot/static/css/main.f6f1a2d2.css",
-    "main.js": "/TalkAlot/static/js/main.e060081d.js",
+    "main.css": "/TalkAlot/static/css/main.19c14197.css",
+    "main.js": "/TalkAlot/static/js/main.86c9b1f6.js",
     "static/media/video1.mp4": "/TalkAlot/static/media/video1.e99a2406eb86336afd62.mp4",
     "index.html": "/TalkAlot/index.html",
-    "main.f6f1a2d2.css.map": "/TalkAlot/static/css/main.f6f1a2d2.css.map",
-    "main.e060081d.js.map": "/TalkAlot/static/js/main.e060081d.js.map"
+    "main.19c14197.css.map": "/TalkAlot/static/css/main.19c14197.css.map",
+    "main.86c9b1f6.js.map": "/TalkAlot/static/js/main.86c9b1f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f1a2d2.css",
-    "static/js/main.e060081d.js"
+    "static/css/main.19c14197.css",
+    "static/js/main.86c9b1f6.js"
   ]
 }
