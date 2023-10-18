@@ -61,7 +61,7 @@ function Connact() {
   <div class="wrapper wr2" id='wr2'>
   <h1><i class="fa-solid fa-arrow-right"></i></h1>
     <div id="survey_options">
-    <textarea name="survey_options[]" className='textarea survey_options' rows="5" cols="40" placeholder='Write your message' ></textarea>    </div>
+    <textarea  type='text' name="survey_options[]" className='textarea survey_options' rows="5" cols="40" placeholder='Write your message' ></textarea>    </div>
     <div class="controls">
     
       <spam className='btn c-btn'  onClick={handleClickwr2} id='next_2'>Next</spam>
