@@ -1,32 +1,54 @@
 import React, { Component } from 'react';
 import './home.css';
 
-const textArray = ['  АНГЛИЙСКИЙ ЭТОсреда- стиль жизни ',
-    '  и мы за это отвечаем'];
+const textArray = ['естественная среда ','живой язык','контекст','лайфстайл'
+    ];
 
 class Chang extends Component {
   constructor() {
     super();
-    this.state = { textIdx: 0 };
+    this.state = { 
+      textIdx: 0 , 
+      changeing: false};
   }
+ 
+
 
   componentDidMount() {
     this.timeout = setInterval(() => {
       let currentIdx = this.state.textIdx;
-      this.setState({ textIdx: currentIdx + 1 });
-    }, 2000);
+      this.setState({ textIdx: currentIdx + 1 }); 
+    }, 500);
+    this.state.changeing=true;
+   
+     
   }
+
+  
+
+
+
+
+
+
+
+
+
 
   componentDidUnmount() {
     clearInterval(this.timeout);
+    // clearInterval(this.timeo);      setInterval(  this.timeout ='new tex' ,1000);    
   }
 
   render() {
     let textThatChanges = textArray[this.state.textIdx % textArray.length];
-
-    return (
+   
+   
+       return (
       <section className='Change'>
-        <h1 className='change-title'>{textThatChanges}</h1>
+      <h1>TALK A LOT - это</h1>
+        <h1 className='change-title'>{ textThatChanges}</h1>
+        <h6 className='title_'>и мы тебя этим обеспечим</h6>
         
       </section>
     )

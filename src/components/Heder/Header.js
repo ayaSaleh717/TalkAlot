@@ -26,7 +26,12 @@ function Header() {
   return (
     <nav class=" header navbar navbar-expand-lg  navbar-dark bg-dark
     coutainer_head" data-aos="fade-right">
-     <a class=" navbar-brand logo" href="#">Logo</a>
+    <div class=" navbar-brand ">
+    <a class=" navbar-brand logo" href="#">АНГЛИЙСКИЙ</a>
+     <h6  className='logoTitle'>с носителями</h6>
+    </div>
+     {/* <a class=" navbar-brand logo" href="#">АНГЛИЙСКИЙ</a>
+     <spam>с носителями</spam> */}
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
