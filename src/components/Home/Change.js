@@ -54,9 +54,9 @@ displayWordsWithInterval();
 
 return (
   <section className='Change'>
-  {/* <h1 >TALK A LOT - это</h1> */}
+  <h1 >TALK A LOT - это</h1>
           <h1 className='change-title'>{currentWord}</h1>
-          {/* <h1 className='title_'>и мы тебя этим обеспечим</h1> */}
+          <h1 className='title_'>и мы тебя этим обеспечим</h1>
     
   </section>
 
