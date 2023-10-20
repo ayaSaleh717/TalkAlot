@@ -43,14 +43,13 @@ class Chang extends Component {
 
   render() {
     let textThatChanges = textArray[this.state.textIdx % textArray.length];
-    let textThatChang = textArray[1];
-   
-   
    
        return (
       <section className='Change'>
       <h1>TALK A LOT - это</h1>
-        <h1 className='change-title'>{textThatChanges}</h1>
+        <h3 className='change-title'>{textThatChanges}</h3>
+        <h6 className='title_'>и мы тебя этим обеспечим</h6>
+
         
       </section>
     )

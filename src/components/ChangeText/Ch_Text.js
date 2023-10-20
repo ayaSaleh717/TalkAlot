@@ -10,6 +10,11 @@ function Ch_Text() {
         <div className='change_text_ section' data-aos="fade-right">
     <div class="logos">
       <div class="logos-slide">
+      {/* <span><img src='./../Assist/3.jfif' /></span>
+        <span><img src='./../Assist/3.jfif' /></span>
+        <span><img src='./../Assist/2.jfif' /></span>
+        <span><img src='./../Assist/1.jfif' /></span>
+        <span><img src='./../Assist/1.jfif' /></span> */}
         <span>«Английский от первоисточника»</span>
         <span>«С нами вы заговорите»</span>
         <span>«Английский как стиль жизни»</span>

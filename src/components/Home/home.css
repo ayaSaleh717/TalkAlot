@@ -6,7 +6,6 @@
     height: 100%;
     background-color:var( --title-color);
     z-index: -1;
-    margin-top: -30px;
     
     }
     h1{
@@ -18,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10pc;
+        margin-top: 5pc;
         overflow: hidden;
     }
     
@@ -54,7 +53,11 @@
     .Change h1{
         font-size: 40px;
     }
-    
+    h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .Why{
         width: 100%;

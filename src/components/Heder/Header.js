@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import NavLink from 'react-router-dom'
 import './Header.css'
 import DarkMode from '../DarkMode/Dark'
+import logo from './../Assist/logo.png'
 
 function Header() {
 
@@ -27,7 +28,7 @@ function Header() {
     <nav class=" header navbar navbar-expand-lg  navbar-dark bg-dark
     coutainer_head" data-aos="fade-right">
     <div class=" navbar-brand ">
-    <a class=" navbar-brand logo" href="#">АНГЛИЙСКИЙ</a>
+    <a class=" navbar-brand logo" href="#"> АНГЛИЙСКИЙ</a>
      <h6  className='logoTitle'>с носителями</h6>
     </div>
      {/* <a class=" navbar-brand logo" href="#">АНГЛИЙСКИЙ</a>
