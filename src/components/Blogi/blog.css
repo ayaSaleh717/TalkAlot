@@ -1,0 +1,7 @@
+.blog{
+    background-color: red;
+    display: grid;
+    align-items: center;
+    justify-content: baseline;
+
+}

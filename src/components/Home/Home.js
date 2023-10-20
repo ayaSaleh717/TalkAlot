@@ -5,13 +5,14 @@ import Video from './../video/Video'
 import About from '../About/About'
 import ChangeText  from '../../components/ChangeText/ChangeText'
 import Ch_Text from '../ChangeText/Ch_Text'
+import Change from './Change'
 
 function Home() {
   return (
     <section className='section_con home section' data-aos="fade-right" >
             <div className='changing-text'>
             <div className='change-text'>
-                <Chang /> 
+                <Change />
                 </div>
                 <div className='Why'>
                      <h1>«почему мы? </h1>  

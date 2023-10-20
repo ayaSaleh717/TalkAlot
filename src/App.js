@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import Blog from './components/Blogi/Blog';
 import Btn from './components/Btn/Btn';
 import Connact from './components/Connact/Connact';
 import FeedBack from './components/FeedBack/FeedBack';
@@ -37,8 +38,8 @@ function App() {
             {/* <Visit /> */}
 
 
-            <FeedBack />
-
+            {/* <FeedBack /> */}
+           {/* <Blog /> */}
 
             <footer >
               <Visit />
