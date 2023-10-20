@@ -37,6 +37,7 @@ function App() {
             {/* <Visit /> */}
 
 
+            <FeedBack />
 
 
             <footer >

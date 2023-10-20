@@ -9,7 +9,7 @@ class Chang extends Component {
     super();
     this.state = { 
       textIdx: 0 , 
-      changeing: false};
+      changeing: true};
   }
  
 
@@ -19,12 +19,13 @@ class Chang extends Component {
       let currentIdx = this.state.textIdx;
       this.setState({ textIdx: currentIdx + 1 }); 
     }, 500);
-    this.state.changeing=true;
+    this.state.changeing= !this.state.changeing;
    
      
   }
 
   
+
 
 
 
@@ -42,13 +43,14 @@ class Chang extends Component {
 
   render() {
     let textThatChanges = textArray[this.state.textIdx % textArray.length];
+    let textThatChang = textArray[1];
+   
    
    
        return (
       <section className='Change'>
       <h1>TALK A LOT - это</h1>
-        <h1 className='change-title'>{ textThatChanges}</h1>
-        <h6 className='title_'>и мы тебя этим обеспечим</h6>
+        <h1 className='change-title'>{textThatChanges}</h1>
         
       </section>
     )
