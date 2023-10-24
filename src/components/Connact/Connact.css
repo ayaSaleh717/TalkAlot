@@ -16,7 +16,7 @@ body {
     /* margin-top: 140px; */
     grid-template-columns: repeat(3,3fr);
     flex-wrap: wrap;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .control

@@ -1,25 +1,37 @@
-import React from 'react'
+import {useState,useEffect} from 'react'
+import image1 from './../Assist/1.png'
+import image2 from './../Assist/2.png'
+import image3 from './../Assist/3.png'
+import image4 from './../Assist/4.png'
+
 import './feed.css'
 
 function FeedBack() {
+
+  const imges = [
+    image1,
+    image2,
+    image3,
+    image4
+  ]
+
+  const [counter, setCounter] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [image, setImage] = useState( imges[3] );
+
+  function handelImage(){
+    setCounter((counter + 1) % 4)
+    setImage(imges[counter])
+  }
+
+ 
   return (
-    <section className='feedback'>
-
-
-<p className='title'>A Comments</p>
-<iframe
- 
-  sandbox="allow-scripts allow-same-origin"
-  layout="responsive"
-  frameborder="0"
-  src="https://m.vk.com/topic-45441962_28780660"
-  className='comments'
- 
->
-
-</iframe>
-  
-    </section>
+   <section className='feedback'>
+    <div className='feedback-container'>
+      <img className='feedback_img' src={image} alt='comment' />
+      <i className="fa-solid fa-arrow-right arrow" onClick={handelImage}></i>
+    </div>
+   </section>
   )
 }
 

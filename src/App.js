@@ -38,7 +38,7 @@ function App() {
             {/* <Visit /> */}
 
 
-            {/* <FeedBack /> */}
+            <FeedBack />
            {/* <Blog /> */}
 
             <footer className='footer_' >

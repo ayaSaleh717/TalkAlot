@@ -36,7 +36,7 @@
 
 
    /*=============Border-Radius ==========*/
-  --border-radius: 20px;
+  --border-radius: 60px;
 
 }
  /*==================================== responsive typography ========================= ==========*/
@@ -171,7 +171,7 @@ img{
   padding: 0.75rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
-  box-shadow: 0 0 1px rgb(0, 0, 0 / 0%);
+  /* box-shadow: 0 0 1px rgb(0, 0, 0 / 0%); */
   color: #fff;
   display: inline-block;
   background-color: var(--first-color);

@@ -12,6 +12,7 @@ function Connact() {
   const [num, setNum] = useState(0)
   const [message, setMessage] = useState("Your Message ")
   const [red, setRed] = useState(false)
+  const [validEmail, setValidEmail] = useState(true)
 
   
  
@@ -22,7 +23,11 @@ function Connact() {
     if(num <3){ console.log(num)
       window.alert("Please Fill All The Fields")
      
-    }else{
+    }else if (document.getElementsByClassName("email").pattern != ".+@gmail.com") {
+     window.alert('unvalid email, please enter a valid email')
+      setValidEmail (false);
+    }
+    else{
     const clasStyle = document.getElementById('wr2')
     clasStyle.style.display='inline'
     const nextStyle = document.getElementById('next_1')
@@ -75,16 +80,18 @@ function Connact() {
                     />
       <input type="text"
              name="survey_options[]" 
-             class="survey_options" 
+             class="survey_options email" 
              size="50"
              readOnly={red}
              placeholder={email} 
+             pattern=".+@gmail.com"
               onChange={(e) => {
                           setNumber(e.target.value)
                           setNum(num + 1)
               }}
               required
              />
+             
       <input type="text"
              name="survey_options[]"
              class="survey_options"
