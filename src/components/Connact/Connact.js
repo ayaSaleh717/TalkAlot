@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 import './Connact.css'
 import SocialLinks from './../FeedBack/SocialLinks';
 import Btn from './../Btn/Btn'
@@ -6,20 +6,32 @@ import Btn from './../Btn/Btn'
 
 function Connact() {
 
+  const [name, setName] = useState("Your Name")
+  const [number, setNumber] = useState("Your Number")
+  const [email, setEmail] = useState("Your Email")
+  const [num, setNum] = useState(0)
+  const [message, setMessage] = useState("Your Message ")
+  const [red, setRed] = useState(false)
 
-  // const handleClick = () => {
-  //   const clasStyle = document.getElementById('wrapper')
-  //   clasStyle.style.display='inline'
   
-  // }
+ 
+
+
+
   const handleClickwr1 = () => {
+    if(num <3){ console.log(num)
+      window.alert("Please Fill All The Fields")
+     
+    }else{
     const clasStyle = document.getElementById('wr2')
     clasStyle.style.display='inline'
-
     const nextStyle = document.getElementById('next_1')
     nextStyle.style.display='none'
     const restStyle = document.getElementById('rest_1')
     restStyle.style.display='none'
+    setRed(true)
+  }
+
 
   
   }
@@ -33,6 +45,7 @@ function Connact() {
   
   }
 
+  
   return (
     <section section className='con section' data-aos="fade-right">
     {/* <SocialLinks /> */}
@@ -44,16 +57,52 @@ function Connact() {
 
 
 
-   <form className='connact'>
+   <form className='connact' action="https://formsubmit.co/el/namigi" method="POST" >
   <div class="wrapper" id='wrapper'>
   <h1>Join Us</h1>
     <div id="survey_options">
-      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Name"  />
-      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Email" />
-      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Number" />
+      <input type="text"
+             name="survey_options[]" 
+             class="survey_options" 
+             size="50" 
+             readOnly={red}
+             placeholder={name}
+             onChange={(e) =>{
+                    setName(e.target.value) 
+                  setNum(num + 1)
+                    }}
+                    required
+                    />
+      <input type="text"
+             name="survey_options[]" 
+             class="survey_options" 
+             size="50"
+             readOnly={red}
+             placeholder={email} 
+              onChange={(e) => {
+                          setNumber(e.target.value)
+                          setNum(num + 1)
+              }}
+              required
+             />
+      <input type="text"
+             name="survey_options[]"
+             class="survey_options"
+             size="50"
+             placeholder={number} 
+             readOnly={red}
+             onChange={(e) => {
+                          setEmail(e.target.value)
+                          setNum(num + 1)
+                        
+                        }}
+                        required
+             />
     </div>
     <div class="controls">
-    <spam className='btn c-btn' onClick={handleClickwr1} id='next_1'>Next</spam>
+    <spam className='btn c-btn'
+          onClick={handleClickwr1}
+           id='next_1'>Next</spam>
       <button type="reset" className='btn c-btn'  id='rest_1'>Reset</button>
     </div>
   </div>
@@ -61,7 +110,14 @@ function Connact() {
   <div class="wrapper wr2" id='wr2'>
   <h1><i class="fa-solid fa-arrow-right"></i></h1>
     <div id="survey_options">
-    <textarea  type='text' name="survey_options[]" className='textarea survey_options' rows="5" cols="40" placeholder='Write your message' ></textarea>    </div>
+    <textarea  type='text'
+              name="survey_options[]"
+               className='textarea survey_options'
+                rows="5" cols="40"
+                 placeholder={message}
+                //  readOnly={red} 
+                 ></textarea>   
+             </div>
     <div class="controls">
     
       <spam className='btn c-btn'  onClick={handleClickwr2} id='next_2'>Next</spam>

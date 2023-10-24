@@ -2,6 +2,7 @@
     background-color: transparent;
     border: none;
     color: var(--body-color);
+    /* background-color: tomato; */
 }
 
 .button{
@@ -14,11 +15,7 @@
      display: grid;
      align-items: center;
      justify-content: center;
-    
-
-     
-       
-    
+    /* background-color: red; */
 }
 
 
@@ -26,6 +23,8 @@
     width: 200px;
     height: 50px;
    margin-top: 310px;
+   /* background-color: blue; */
+   /* z-index: 1; */
 
 }
 

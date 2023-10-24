@@ -31,17 +31,17 @@ function App() {
             <Header />
             <Home /> 
              <Video />     
-
-            {/* <Btn /> */}
             <Connact />
-            <SocialLinks />
+            {/* <Btn /> */}
+          
+            {/* <SocialLinks /> */}
             {/* <Visit /> */}
 
 
             {/* <FeedBack /> */}
            {/* <Blog /> */}
 
-            <footer >
+            <footer className='footer_' >
               <Visit />
             </footer>
             

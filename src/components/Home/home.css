@@ -12,12 +12,18 @@
         color: var(--text-color);
     }
     
-    
-    .change-text{
+    .change-title{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 5pc;
+        /* background-color: red; */
+    }
+    
+    .change-text{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10pc;
         overflow: hidden;
     }
     
@@ -38,17 +44,17 @@
         width: 25%;
     }
     .Change{
+        margin-top: 10px;
+        /* position: absolute; */
         width: 500px;
         height: 200px;
         position: relative;
         display:grid;
         align-items: center;
        justify-content: center;
-      
-    
-
         
     }
+
     .Why h1,
     .Change h1{
         font-size: 40px;
@@ -194,10 +200,12 @@
     }
 
     .title_{
-        margin-top:10px;
-        position: relative;
+        /* margin-top:10px; */
+        position: sticky;
         align-self: center;
         justify-content: center;
         display: flex;
+        /* margin: 0px 0px; */
+        /* background-color: blue; */
 
     }

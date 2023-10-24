@@ -16,10 +16,13 @@
 
   const displayWordsWithInterval = () => {
   let intervalld;
+
+
+  
   const startInterval = () => {
     intervalld = setInterval(() => {
       setCurrentWordIndex2((currentWordIndex2) => (currentWordIndex2 + 1) % currentArray.length);
-    }, 100);
+    }, 500);
   };
 
   const switchArray = () => {
@@ -29,7 +32,7 @@
   setTimeout (startInterval, 2000);
   }
   startInterval();
-  setInterval (switchArray, 4000);
+  setInterval (switchArray, 6000);
 }
   useEffect(() => {
   setCurrentWord(currentArray[currentWordIndex2]) ;
@@ -46,7 +49,7 @@
 
   return (
     <section className='Change'>
-      <h1>TALK A LOT - это</h1>
+      <h1 className='title_'>TALK A LOT - это</h1>
         <h3 className='change-title'>{currentWord}</h3>
         <h6 className='title_'>и мы тебя этим обеспечим</h6>
         </section>

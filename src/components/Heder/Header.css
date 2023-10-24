@@ -1,13 +1,13 @@
- .coutainer_head{
-    /* position: fixed; */
-    position: relative;
+.coutainer_head{
+    position: fixed;
+    /* position: relative; */
     /* display: flex; */
     /* justify-content: space-between; */
     width: 100%;
     padding: 40px 40px;   
     background-color:var( --title-color);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    border-radius: var(--border-radius);
-    /* z-index: 1; */
+    z-index: 1;
     
 
 }
