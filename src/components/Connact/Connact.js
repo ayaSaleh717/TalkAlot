@@ -57,7 +57,7 @@ function Connact() {
 
 
 
-   <form className='connact' action="https://formsubmit.co/el/namigi" method="POST" >
+   <form className='connact' method="POST" >
   <div class="wrapper" id='wrapper'>
   <h1>Join Us</h1>
     <div id="survey_options">
