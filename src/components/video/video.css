@@ -1,11 +1,13 @@
 .video-container{
     /* margin-top: 30px; */
+    min-height: 30vh;
     display: grid;
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
-    margin-top: -100px;
     margin-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
     
     
 
@@ -54,11 +56,8 @@
         margin-top: -100px;
 
     }
-    /* .s_btn{
-        width: 100px;
-    }
    
-     */
+    
    }
 
 /* 

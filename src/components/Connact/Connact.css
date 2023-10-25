@@ -7,29 +7,28 @@ body {
 }
 .con{
   min-height: 50vh; 
-  /* position: relative; */
-  display: flex;
+  /* height: auto;
+   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .connact{
-    /* background-color: red; */
     overflow-y: hidden;
     z-index: 1;
     padding-top: 200px;
     display: grid;
-    flex-direction: row;
+    flex-direction: row; 
     /* margin-top: 140px; */
-    grid-template-columns: repeat(3,3fr);
-    flex-wrap: wrap;
-    margin-top: 300px;
+    /* grid-template-columns: repeat(3,3fr);
+    flex-wrap: wrap; */
+    /* margin-top: 300px;
 
 }
 
 .control
 
 .btn{
-  margin: auto;
+  /* margin: auto; */
   border: solid var( --container-color) 1px;
   cursor: pointer;
   color: var(--container-color);
@@ -55,7 +54,7 @@ box-shadow: var(--hover-shadow);
 
 .wrapper {
   width: 400px;
-  margin:20px;
+  /* margin:20px; */
   padding: 10px;
   border-radius: 30px;
   background:var( --title-color);
@@ -95,7 +94,7 @@ input[type="text"]:focus {
 
 .controls {
   width: 294px;
-  margin: 15px auto;
+  /* margin: 15px auto; */
 }
 
 #remove_fields {
@@ -129,7 +128,7 @@ h1 {
 
 
 
-
+/* 
 @media screen and (max-width: 1000px) {
   .connact{
     display: flex;
@@ -140,4 +139,4 @@ h1 {
    margin:  30px 20%;
   }
 
-}
+} */

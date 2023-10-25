@@ -52,15 +52,8 @@ function Connact() {
 
   
   return (
-    <section section className='con section' data-aos="fade-right">
-    {/* <SocialLinks /> */}
-    
-    
-    
+    <section section className='con section' data-aos="fade-right">  
       <Btn />
-    
-
-
 
    <form className='connact' method="POST" >
   <div class="wrapper" id='wrapper'>
