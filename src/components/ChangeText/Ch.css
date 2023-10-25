@@ -24,18 +24,19 @@
 }
 
   span{
-    margin: 20px;
+    /* margin: 20px; */
     font-size: 40px;
     /* font-size: var(--smale-font-size); */
   }
   
   .logos {
-    overflow: hidden;
+  
+  overflow: hidden;
     white-space: nowrap;
     /* position: relative; */
     width: 50%;
     background-color: var(--firstcolor);
-    margin-left: -20px;
+    /* margin-left: -20px; */
    
     
   }
@@ -75,9 +76,9 @@
     margin: 0 40px;
   } */
 
-  .change_text_{
+  /* .change_text_{
    position: absolute;
-  }
+  } */
 
   .Why h1{
     overflow: hidden;

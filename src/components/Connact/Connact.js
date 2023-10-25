@@ -23,7 +23,7 @@ function Connact() {
     if(num <3){ console.log(num)
       window.alert("Please Fill All The Fields")
      
-    }else if (document.getElementsByClassName("email").pattern != ".+@gmail.com") {
+    }else if (document.getElementsByClassName("email").pattern != "@gmail.com") {
      window.alert('unvalid email, please enter a valid email')
       setValidEmail (false);
     }

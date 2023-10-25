@@ -9,6 +9,7 @@ import Header from './components/Heder/Header';
 import Home from './components/Home/Home';
 import Visit from './components/Visitor-Count/Visit';
 import Video from './components/video/Video';
+import Why from './components/why/Why';
 
 function App() {
 
@@ -30,21 +31,25 @@ function App() {
        
             <Header />
             <Home /> 
-             <Video />     
-            <Connact />
+            <Why />
+            <Video />
+          <Connact />
+
+             {/* <Video />      */}
+           
             {/* <Btn /> */}
           
             {/* <SocialLinks /> */}
             {/* <Visit /> */}
 
 
-            <FeedBack />
+            {/* <FeedBack /> */}
            {/* <Blog /> */}
-
+{/* 
             <footer className='footer_' >
               <Visit />
             </footer>
-            
+             */}
       
      
     </div>

@@ -49,7 +49,7 @@
 
   return (
     <section className='Change'>
-      <h1 className='title_'>TALK A LOT - это</h1>
+      <h1 className='title_ h1'>TALK A LOT - это</h1>
         <h3 className='change-title'>{currentWord}</h3>
         <h6 className='title_'>и мы тебя этим обеспечим</h6>
         </section>

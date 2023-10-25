@@ -14,7 +14,7 @@ function Home() {
             <div className='change-text'>
                 <Change />
                 </div>
-                <div className='Why'>
+                {/* <div className='Why'>
                      <h1>«почему мы? </h1>  
                       <p>мы выводим на речь на первом уроке
                         берем с 0
@@ -24,8 +24,7 @@ function Home() {
                         </p>
                         
 
-                        {/* <ChangeText /> */}
-                        </div> 
+                        </div>  */}
                                 
         </div>
 

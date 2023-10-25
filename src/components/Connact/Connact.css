@@ -5,7 +5,13 @@ body {
   font-family: 'Jost',sans-serif;
   /* color: #fff; */
 }
-
+.con{
+  min-height: 50vh; 
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .connact{
     /* background-color: red; */
     overflow-y: hidden;
@@ -17,6 +23,7 @@ body {
     grid-template-columns: repeat(3,3fr);
     flex-wrap: wrap;
     margin-top: 300px;
+
 }
 
 .control

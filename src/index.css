@@ -142,11 +142,14 @@ img{
 }
 
 .section{
-  display: grid;
+  /* display: grid;
   place-items: center;
   align-content: center;
+  min-height: 100vh; */
+
   /* min-height: 0vh; */
   /* opacity: 0; */
+
 
 }
 .section-title{
@@ -173,7 +176,7 @@ img{
   border-radius: 1.875rem;
   /* box-shadow: 0 0 1px rgb(0, 0, 0 / 0%); */
   color: #fff;
-  display: inline-block;
+  /* display: inline-block; */
   background-color: var(--first-color);
   font-weight: var(--font-bold);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;

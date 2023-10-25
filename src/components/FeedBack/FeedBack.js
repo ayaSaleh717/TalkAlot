@@ -15,15 +15,16 @@ function FeedBack() {
     image4
   ]
 
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
   const [loading, setLoading] = useState(true);
   const [image, setImage] = useState( imges[3] );
 
   function handelImage(){
-    setCounter((counter + 1) % 4)
+    setCounter((counter + 1) % 5)
     setImage(imges[counter])
   }
 
+  // setInterval(handelImage,3000)
  
   return (
    <section className='feedback'>
