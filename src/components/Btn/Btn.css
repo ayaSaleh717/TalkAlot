@@ -1,4 +1,18 @@
+.button{
+  background-color: red;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-btn{
+  /* background-color: blue; */
+  position: absolute;
+  
+}
 
+/* 
 
 .button{
      position: relative;
@@ -11,14 +25,15 @@
 
 .s-btn{
     position: relative;
-   width:30%;
+   width:30%; */
+
 
      /* height: 50px; */
    /* margin-top: 310px; */
    /* background-color: blue; */
    /* z-index: 1; */
 
-}
+/* } */
 
 /* .video-container{
      display: flex;
@@ -27,7 +42,7 @@
 } */
 
 .App{
-    position: relative;
+    /* position: relative; */
     /* display: flex; */
 
 }
