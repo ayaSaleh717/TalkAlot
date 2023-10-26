@@ -33,8 +33,7 @@ function App() {
             <Home /> 
             <Why />
             <Video />
-          <Connact />
-
+         <FeedBack />
              {/* <Video />      */}
            
             {/* <Btn /> */}
@@ -43,7 +42,7 @@ function App() {
             {/* <Visit /> */}
 
 
-            {/* <FeedBack /> */}
+           
            {/* <Blog /> */}
 {/* 
             <footer className='footer_' >

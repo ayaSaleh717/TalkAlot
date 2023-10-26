@@ -31,11 +31,11 @@
   
   .logos {
   
-  overflow: hidden;
+  overflow: hidden; 
     white-space: nowrap;
-    /* position: relative; */
+    position: relative;
     width: 50%;
-    background-color: var(--firstcolor);
+    background-color: var(--first-color);
     /* margin-left: -20px; */
    
     
